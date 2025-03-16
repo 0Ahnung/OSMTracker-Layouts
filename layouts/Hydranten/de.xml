@@ -8,7 +8,7 @@
                 </row>
                 
                 <row>
-                        <button type="page" label="Gebaeude" icon="Hydranten_Icons/building.png" targetlayout="Gebaeude" />
+                        <button type="page" label="Gebaeude" icon="Hydranten_Icons\building.png" targetlayout="Gebaeude" />
                  	<button type="page" label="Unterflur Hydrant Strasse" icon="Hydranten_Icons/underground_lane.png" targetlayout="Unterflur_Hydrant_Strasse" />
                         <button type="page" label="Unterflur Hydrant Fussweg" icon="Hydranten_Icons/underground_sidewalk.png" targetlayout="Unterflur_Hydrant_Fussweg" />
                 </row>
