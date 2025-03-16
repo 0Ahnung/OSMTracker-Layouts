@@ -201,18 +201,4 @@
                         <button type="tag" label="H?; underground; green" icon="Hydranten_Icons/underground_green.png" />
                 </row>
         </layout>
-
-        <layout name="Blitzer">
-                <row>
-                        <button type="voicerec" icon="voice_32x32" />
-                        <button type="picture" icon="camera_32x32" />
-                        <button type="textnote" icon="text_32x32" />
-                </row>
-
-                <row>
-                        <button type="tag" label="Blitzer fest" icon="Hydranten_Icons/button_car_speed_camera.png" />
-                        <button type="tag" label="Blitzer mobil" icon="Hydranten_Icons/button_car_speed_camera.png" />
-                        <button type="tag" label="Polizei Laser" icon="Hydranten_Icons/button_car_speed_camera.png" />
-                </row>
-        </layout>
 </layouts>
