@@ -8,21 +8,20 @@
                 </row>
                 
                 <row>
-                        <button type="page" label="Gebaeude" icon="building.png" targetlayout="Hydranten_Icons/Gebaeude" />
-                 	<button type="page" label="Unterflur Hydrant Strasse" icon="underground_lane.png" targetlayout="Hydranten_Icons/Unterflur_Hydrant_Strasse" />
-                        <button type="page" label="Unterflur Hydrant Fussweg" icon="underground_sidewalk.png" targetlayout="Hydranten_Icons/Unterflur_Hydrant_Fussweg" />
+                        <button type="page" label="Gebaeude" icon="Hydranten_Icons/building.png" targetlayout="Gebaeude" />
+                 	<button type="page" label="Unterflur Hydrant Strasse" icon="Hydranten_Icons/underground_lane.png" targetlayout="Unterflur_Hydrant_Strasse" />
+                        <button type="page" label="Unterflur Hydrant Fussweg" icon="Hydranten_Icons/underground_sidewalk.png" targetlayout="Unterflur_Hydrant_Fussweg" />
                 </row>
 
                 <row>                        
-                        <button type="page" label="Unterflur Hydrant Parkplatz" icon="underground_parking_lot.png" targetlayout="Hydranten_Icons/Unterflur_Hydrant_Parkplatz" />                    
-                        <button type="page" label="Unterflur Hydrant Gruen" icon="underground_green.png" targetlayout="Hydranten_Icons/Unterflur_Hydrant_Gruen" />
-			<button type="page" label="Oberflur Hydrant" icon="pillar.png" targetlayout="Hydranten_Icons/Oberflur_Hydrant" />
+                        <button type="page" label="Unterflur Hydrant Parkplatz" icon="Hydranten_Icons/underground_parking_lot.png" targetlayout="Unterflur_Hydrant_Parkplatz" />                    
+                        <button type="page" label="Unterflur Hydrant Gruen" icon="Hydranten_Icons/underground_green.png" targetlayout="Unterflur_Hydrant_Gruen" />
+			<button type="page" label="Oberflur Hydrant" icon="Hydranten_Icons/pillar.png" targetlayout="Oberflur_Hydrant" />
      		</row>
 
                 <row>
-                        <button type="page" label="Saugstelle" icon="pond.png" targetlayout="Hydranten_Icons/Saugstelle" />
-    			<button type="page" label="weitere-H" icon="wall.png" targetlayout="Hydranten_Icons/weitere_H" />
-                        <button type="page" label="Blitzer" icon="button_car_speed_camera.png" targetlayout="Hydranten_Icons/Blitzer" />
+                        <button type="page" label="Saugstelle" icon="Hydranten_Icons/pond.png" targetlayout="Saugstelle" />
+    			<button type="page" label="weitere-H" icon="Hydranten_Icons/wall.png" targetlayout="Hydranten_Icons/weitere_H" />
                 </row>
         </layout>
 
