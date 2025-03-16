@@ -21,7 +21,7 @@
 
                 <row>
                         <button type="page" label="Saugstelle" icon="Hydranten_Icons/pond.png" targetlayout="Saugstelle" />
-    			<button type="page" label="weitere-H" icon="Hydranten_Icons/wall.png" targetlayout="Hydranten_Icons/weitere_H" />
+    			<button type="page" label="weitere-H" icon="Hydranten_Icons/wall.png" targetlayout="weitere_H" />
                 </row>
         </layout>
 
