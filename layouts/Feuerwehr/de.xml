@@ -188,6 +188,7 @@
     <row>
       <button type="tag" label="Funkantenne 2m"/>
       <button type="tag" label="Funkantenne 4m"/>
+      <button type="tag" label="Funkantenne 2m, 4m"/>
     </row>
   </layout>
 </layouts>
