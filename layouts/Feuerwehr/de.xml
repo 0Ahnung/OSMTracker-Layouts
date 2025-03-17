@@ -170,12 +170,24 @@
       <button type="picture" icon="camera_32x32" />
       <button type="textnote" icon="text_32x32" />
     </row>
+    <row>
+      <button type="tag" label="Sirene Mechanisch Dach"/>
+      <button type="tag" label="Sirene Mechanisch Mast"/>
+    </row>
+    <row>
+      <button type="tag" label="Sirene Elektrisch Dach"/>
+      <button type="tag" label="Sirene Elektrisch Mast"/>
+    </row>
   </layout>
     <layout name="Funk">
     <row>
       <button type="voicerec" icon="voice_32x32" />
       <button type="picture" icon="camera_32x32" />
       <button type="textnote" icon="text_32x32" />
+    </row>
+    <row>
+      <button type="tag" label="Funkantenne 2m"/>
+      <button type="tag" label="Funkantenne 4m"/>
     </row>
   </layout>
 </layouts>
