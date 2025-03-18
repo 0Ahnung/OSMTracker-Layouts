@@ -7,9 +7,9 @@
       <button type="textnote" icon="text_32x32"/>
     </row>
     <row>
-      <button type="page" label="Gebaeude" icon="/Hydranten_icons/building.png" targetlayout="Gebaeude"/>
-      <button type="page" label="Unterflur Hydrant Strasse" icon="/Hydranten_icons/underground_lane.png" targetlayout="Unterflur_Hydrant_Strasse"/>
-      <button type="page" label="Unterflur Hydrant Fussweg" icon="/Hydranten_icons/underground_sidewalk.png" targetlayout="Unterflur_Hydrant_Fussweg"/>
+      <button type="page" label="Gebaeude" icon="Hydranten_icons/building.png" targetlayout="Gebaeude"/>
+      <button type="page" label="Unterflur Hydrant Strasse" icon="Hydranten_icons/underground_lane.png" targetlayout="Unterflur_Hydrant_Strasse"/>
+      <button type="page" label="Unterflur Hydrant Fussweg" icon="Hydranten_icons/underground_sidewalk.png" targetlayout="Unterflur_Hydrant_Fussweg"/>
     </row>
     <row>
       <button type="page" label="Unterflur Hydrant Parkplatz" icon="Hydranten_icons/underground_parking_lot.png" targetlayout="Unterflur_Hydrant_Parkplatz"/>
