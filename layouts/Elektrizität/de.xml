@@ -1,1 +1,35 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+  <layout name="root">
+    <row>
+      <button type="voicerec" icon="voice_32x32"/>
+      <button type="picture" icon="camera_32x32"/>
+      <button type="textnote" icon="text_32x32"/>
+    </row>
+    <row>
+      <button type="page" label="Allgemein" icon="Elektrizität_icons/building.png" targetlayout="All"/>
+      <button type="page" label="Elektro" icon="Elektrizität_icons/street_lamp.png" targetlayout="Power" />
+  </layout>
+  <layout name="All">
+    <row>
+      <button type="tag" label="amenity-bench" icon="Elektrizität_icons/bench.png" />
+      <button type="tag" label="amenity-waste_basket" icon="Elektrizität_icons/waste_basket.png" />
+    </row>
+  </layout>
+  <layout name="Power">
+    <row>
+      <button type="voicerec" icon="voice_32x32"/>
+      <button type="picture" icon="camera_32x32"/>
+      <button type="textnote" icon="text_32x32"/>
+    </row>
+    <row>
+      <button type="tag" label="street lamp" icon="Elektrizität_icons/street_lamp.png" />
+      <button type="tag" label="street lamp LED" icon="Elektrizität_icons/street_lamp_led.png" />
+      <button type="tag" label="cable distribution cabinet" icon="Elektrizität_icons/vschrank.png" />
+    </row>
+    <row>
+      <button type="tag" label="power substation" icon="Elektrizität_icons/power_substation.png" />
+      <button type="tag" label="power substation type compact" icon="Elektrizität_icons/power_substation_type_compact.png" />
+    </row>
+  </layout>
+</layouts>
