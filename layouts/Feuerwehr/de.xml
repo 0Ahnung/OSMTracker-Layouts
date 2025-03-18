@@ -18,8 +18,8 @@
     </row>
     <row>
       <button type="page" label="Saugstelle u. weitere" icon="Feuerwehr_icons/pond.png" targetlayout="Saugstelle_weitere"/>
-      <button type="page" label="Sirene" icon="Feuerwehr_icons/wall.png" targetlayout="Sirene"/>
-        <button type="page" label="Funkantenne" icon="Feuerwehr_icons/wall.png" targetlayout="Funk"/>
+      <button type="page" label="Sirene" icon="Feuerwehr_icons/Sirene_mech.png" targetlayout="Sirene"/>
+        <button type="page" label="Funkantenne" icon="Feuerwehr_icons/Antenne.png" targetlayout="Funk"/>
     </row>
   </layout>
   <layout name="Gebaeude">
