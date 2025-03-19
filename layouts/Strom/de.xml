@@ -9,6 +9,7 @@
     <row>
       <button type="page" label="Allgemein" icon="Strom_icons/building.png" targetlayout="All"/>
       <button type="page" label="Elektro" icon="Strom_icons/street_lamp.png" targetlayout="Power" />
+    </row>
   </layout>
   <layout name="All">
     <row>
@@ -23,13 +24,13 @@
       <button type="textnote" icon="text_32x32"/>
     </row>
     <row>
-      <button type="tag" label="street_lamp" icon="Strom_icons/street_lamp.png" />
-      <button type="tag" label="street_lamp_LED" icon="Strom_icons/street_lamp_led.png" />
-      <button type="tag" label="cable_distribution_cabinet" icon="Strom_icons/vschrank.png" />
+      <button type="tag" label="street lamp" icon="Strom_icons/street_lamp.png" />
+      <button type="tag" label="street lamp LED" icon="Strom_icons/street_lamp_led.png" />
+      <button type="tag" label="cable distribution cabinet" icon="Strom_icons/vschrank.png" />
     </row>
     <row>
-      <button type="tag" label="power_substation" icon="Strom_icons/power_substation.png" />
-      <button type="tag" label="power_substation_type_compact" icon="Strom_icons/power_substation_type_compact.png" />
+      <button type="tag" label="power substation" icon="Strom_icons/power_substation.png" />
+      <button type="tag" label="power substation type compact" icon="Strom_icons/power_substation_type_compact.png" />
     </row>
   </layout>
 </layouts>
