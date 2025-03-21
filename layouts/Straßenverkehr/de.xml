@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+  <layout name="root">
+    <row>
+      <button type="voicerec" icon="voice_32x32" />
+      <button type="picture" icon="camera_32x32" />
+      <button type="textnote" icon="text_32x32" />
+    </row>
+    <row>
+      <button type="tag" label="emergency=phone" icon="Straßenverkehr_icons/emergency_phone.png" />
+      <button type="page" label="Fahrspuren" icon="Straßenverkehr_icons/lane2_1.png" targetlayout="Fahrspuren" />
+    </row>
+    <row>
+      <button type="page" label="Geschwindigkeit" icon="Straßenverkehr_icons/maxspeed_120.png" targetlayout="Geschwindigkeit" />
+      <button type="page" label="Verbot" icon="Straßenverkehr_icons/ueberholverbot_ue3,5.png" targetlayout="Verbot" />
+      <button type="page" label="Blitzer" icon="button_car_speed_camera.png" targetlayout="Blitzer" />
+    </row>
+  </layout>
+
+  <layout name="Fahrspuren">
+    <row>
+      <button type="tag" label="1 Fahrspur" icon="Straßenverkehr_icons/lane1.png" />
+      <button type="tag" label="2 Fahrspuren" icon="Straßenverkehr_icons/lane2.png" />
+      <button type="tag" label="3 Fahrspuren" icon="Straßenverkehr_icons/lane3.png" />
+    </row>
+    <row>
+      <button type="tag" label="4 Fahrspuren" icon="Straßenverkehr_icons/lane4.png" />
+      <button type="tag" label="5 Fahrspuren" icon="Straßenverkehr_icons/lane5.png" />
+      <button type="tag" label="6 Fahrspuren" icon="Straßenverkehr_icons/lane6.png" />
+    </row>
+    <row>
+      <button type="tag" label="1 Fahrspur + 1 Abbigespur" icon="Straßenverkehr_icons/lane1_1.png" />
+      <button type="tag" label="2 Fahrspuren + 1 Abbigespur" icon="Straßenverkehr_icons/lane2_1.png" />
+      <button type="tag" label="3 Fahrspuren + 1 Abbigespur" icon="Straßenverkehr_icons/lane3_1.png" />
+    </row>
+    <row>
+      <button type="tag" label="4 Fahrspuren + 1 Abbigespur" icon="Straßenverkehr_icons/lane4_1.png" />
+      <button type="tag" label="3 Fahrspuren + 2 Abbigespuren" icon="Straßenverkehr_icons/lane3_2.png" />
+      <button type="tag" label="4 Fahrspuren + 2 Abbigespuren" icon="Straßenverkehr_icons/lane4_2.png" />
+    </row>
+  </layout>
+
+  <layout name="Geschwindigkeit">
+    <row>
+      <button type="tag" label="maxspeed = 20" icon="Straßenverkehr_icons/maxspeed_20.png" />
+      <button type="tag" label="maxspeed = 30" icon="Straßenverkehr_icons/maxspeed_30.png" />
+      <button type="tag" label="maxspeed = 40" icon="Straßenverkehr_icons/maxspeed_40.png" />
+    </row>
+    <row>
+      <button type="tag" label="maxspeed = 50" icon="Straßenverkehr_icons/maxspeed_50.png" />
+      <button type="tag" label="maxspeed = 60" icon="Straßenverkehr_icons/maxspeed_60.png" />
+      <button type="tag" label="maxspeed = 70" icon="Straßenverkehr_icons/maxspeed_70.png" />
+    </row>
+    <row>
+      <button type="tag" label="maxspeed = 80" icon="Straßenverkehr_icons/maxspeed_80.png" />
+      <button type="tag" label="maxspeed = 90" icon="Straßenverkehr_icons/maxspeed_90.png" />
+      <button type="tag" label="maxspeed = 100" icon="Straßenverkehr_icons/maxspeed_100.png" />
+    </row>
+    <row>
+      <button type="tag" label="maxspeed = 110" icon="Straßenverkehr_icons/maxspeed_110.png" />
+      <button type="tag" label="maxspeed = 120" icon="Straßenverkehr_icons/maxspeed_120.png" />
+      <button type="tag" label="maxspeed = 130" icon="Straßenverkehr_icons/maxspeed_130.png" />
+    </row>
+  </layout>
+
+  <layout name="Verbot">
+    <row>
+      <button type="tag" label="PKW Ueberholverbot" icon="Straßenverkehr_icons/ueberholverbot.png" />
+      <button type="tag" label="LKW Ueberholverbot" icon="Straßenverkehr_icons/ueberholverbot_ue3,5.png" />
+    </row>
+  </layout>
+
+  <layout name="Blitzer">
+    <row>
+      <button type="voicerec" icon="voice_32x32" />
+      <button type="picture" icon="camera_32x32" />
+      <button type="textnote" icon="text_32x32" />
+    </row>
+
+    <row>
+      <button type="tag" label="Blitzer fest" icon="button_car_speed_camera.png" />
+      <button type="tag" label="Blitzer mobil" icon="button_car_speed_camera.png" />
+      <button type="tag" label="Polizei Laser" icon="button_car_speed_camera.png" />
+    </row>
+  </layout>
+</layouts>
